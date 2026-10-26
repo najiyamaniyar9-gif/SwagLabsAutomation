@@ -1,0 +1,25 @@
+/target/
+# Maven build files
+target/
+
+# Test reports and screenshots
+reports/
+screenshots/
+test-output/
+allure-results/
+
+# Eclipse generated files
+.settings/
+.classpath
+.project
+
+# Temporary files
+*.log
+*.tmp
+
+# Sensitive environment files
+.env
+.env.*
+
+# Keep project source and test data
+

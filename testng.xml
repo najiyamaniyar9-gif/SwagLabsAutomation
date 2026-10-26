@@ -1,0 +1,15 @@
+
+<suite name="SauceDemo Automation Suite" parallel="false">
+
+    <listeners>
+        <listener class-name="com.najiya.listeners.ScreenshotListener"/>
+    </listeners>
+
+    <test name="All Tests">
+        <packages>
+            <package name="com.najiya.tests"/>
+            <package name="com.najiyapage"/>
+        </packages>
+    </test>
+
+</suite>
